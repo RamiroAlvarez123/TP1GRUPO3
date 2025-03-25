@@ -1,0 +1,13 @@
+D:\Desktop\TP1GRUPO3\TP1GRUPO3\bin\Debug\TP1GRUPO3.exe.config
+D:\Desktop\TP1GRUPO3\TP1GRUPO3\bin\Debug\TP1GRUPO3.exe
+D:\Desktop\TP1GRUPO3\TP1GRUPO3\bin\Debug\TP1GRUPO3.pdb
+D:\Desktop\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.csproj.AssemblyReference.cache
+D:\Desktop\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.FormularioPrincipal.resources
+D:\Desktop\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.FormEjUno.resources
+D:\Desktop\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.Properties.Resources.resources
+D:\Desktop\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.csproj.GenerateResource.cache
+D:\Desktop\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.csproj.CoreCompileInputs.cache
+D:\Desktop\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.exe
+D:\Desktop\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.pdb
+D:\Desktop\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.FormEjDos.resources
+D:\Desktop\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.FormEjTres.resources
