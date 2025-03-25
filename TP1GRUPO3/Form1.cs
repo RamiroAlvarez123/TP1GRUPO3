@@ -10,11 +10,32 @@ using System.Windows.Forms;
 
 namespace TP1GRUPO3
 {
-    public partial class Form1 : Form
+    public partial class FormularioPrincipal : Form
     {
-        public Form1()
+        public FormularioPrincipal()
         {
             InitializeComponent();
+        }
+
+        private void btnEjUno_Click(object sender, EventArgs e)
+        {
+            FormEjUno formEjUno = new FormEjUno(this);
+            formEjUno.Show();
+            this.Hide();
+        }
+
+        private void btnEjDos_Click(object sender, EventArgs e)
+        {
+            FormEjDos formEjDos = new FormEjDos(this);
+            formEjDos.Show();
+            this.Hide();
+        }
+
+        private void btnEjTres_Click(object sender, EventArgs e)
+        {
+            FormEjTres formEjTres = new FormEjTres(this);
+            formEjTres.Show();
+            this.Hide();
         }
     }
 }
