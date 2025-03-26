@@ -11,3 +11,16 @@ D:\Desktop\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.exe
 D:\Desktop\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.pdb
 D:\Desktop\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.FormEjDos.resources
 D:\Desktop\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.FormEjTres.resources
+C:\Users\jessi\OneDrive\Escritorio\TP1GRUPO3\TP1GRUPO3\bin\Debug\TP1GRUPO3.exe.config
+C:\Users\jessi\OneDrive\Escritorio\TP1GRUPO3\TP1GRUPO3\bin\Debug\TP1GRUPO3.exe
+C:\Users\jessi\OneDrive\Escritorio\TP1GRUPO3\TP1GRUPO3\bin\Debug\TP1GRUPO3.pdb
+C:\Users\jessi\OneDrive\Escritorio\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.csproj.AssemblyReference.cache
+C:\Users\jessi\OneDrive\Escritorio\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.FormularioPrincipal.resources
+C:\Users\jessi\OneDrive\Escritorio\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.FormEjUno.resources
+C:\Users\jessi\OneDrive\Escritorio\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.FormEjDos.resources
+C:\Users\jessi\OneDrive\Escritorio\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.FormEjTres.resources
+C:\Users\jessi\OneDrive\Escritorio\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.Properties.Resources.resources
+C:\Users\jessi\OneDrive\Escritorio\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.csproj.GenerateResource.cache
+C:\Users\jessi\OneDrive\Escritorio\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.csproj.CoreCompileInputs.cache
+C:\Users\jessi\OneDrive\Escritorio\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.exe
+C:\Users\jessi\OneDrive\Escritorio\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.pdb
