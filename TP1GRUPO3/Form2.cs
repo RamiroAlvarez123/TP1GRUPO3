@@ -23,5 +23,22 @@ namespace TP1GRUPO3
         {
             formularioPrincipal.Show();
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            // Ingreso de string,validar ingreso de valeres en blanco, uso de trim para espacio en blanco.
+            // Agregue listbox, button,label,texbox
+
+            if (txtNombres.Text != "")
+            {
+                lbNombres.Items.Add(txtNombres.Text.Trim());
+                txtNombres.Text = "";
+            }
+            else
+            {
+                MessageBox.Show("Ingrese un nombre");
+            }
+
+        }
     }
 }
