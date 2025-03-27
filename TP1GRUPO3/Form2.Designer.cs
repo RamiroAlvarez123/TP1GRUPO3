@@ -38,19 +38,21 @@ namespace TP1GRUPO3
             // lbNombres
             // 
             this.lbNombres.FormattingEnabled = true;
-            this.lbNombres.ItemHeight = 16;
-            this.lbNombres.Location = new System.Drawing.Point(81, 158);
+            this.lbNombres.Location = new System.Drawing.Point(61, 128);
+            this.lbNombres.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lbNombres.Name = "lbNombres";
-            this.lbNombres.Size = new System.Drawing.Size(266, 260);
+            this.lbNombres.Size = new System.Drawing.Size(200, 212);
             this.lbNombres.TabIndex = 0;
+            this.lbNombres.SelectedIndexChanged += new System.EventHandler(this.lbNombres_SelectedIndexChanged);
             // 
             // btnAgregar
             // 
             this.btnAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(609, 78);
+            this.btnAgregar.Location = new System.Drawing.Point(457, 63);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(101, 38);
+            this.btnAgregar.Size = new System.Drawing.Size(76, 31);
             this.btnAgregar.TabIndex = 1;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -61,31 +63,33 @@ namespace TP1GRUPO3
             this.lblNombre.AutoSize = true;
             this.lblNombre.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.Location = new System.Drawing.Point(76, 81);
+            this.lblNombre.Location = new System.Drawing.Point(57, 66);
+            this.lblNombre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(181, 25);
+            this.lblNombre.Size = new System.Drawing.Size(147, 20);
             this.lblNombre.TabIndex = 2;
             this.lblNombre.Text = "Ingrese un nombre:";
             // 
             // txtNombres
             // 
             this.txtNombres.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombres.Location = new System.Drawing.Point(284, 78);
+            this.txtNombres.Location = new System.Drawing.Point(213, 63);
+            this.txtNombres.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNombres.Name = "txtNombres";
-            this.txtNombres.Size = new System.Drawing.Size(293, 30);
+            this.txtNombres.Size = new System.Drawing.Size(221, 26);
             this.txtNombres.TabIndex = 3;
+            this.txtNombres.TextChanged += new System.EventHandler(this.txtNombres_TextChanged);
             // 
             // FormEjUno
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txtNombres);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.lbNombres);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormEjUno";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ejercicio Uno";

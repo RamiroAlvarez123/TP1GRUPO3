@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace TP1GRUPO3
 {
@@ -28,16 +29,37 @@ namespace TP1GRUPO3
         {
             // Ingreso de string,validar ingreso de valeres en blanco, uso de trim para espacio en blanco.
             // Agregue listbox, button,label,texbox
+            bool duplicado = false;
 
             if (txtNombres.Text != "")
             {
-                lbNombres.Items.Add(txtNombres.Text.Trim());
-                txtNombres.Text = "";
+                foreach (string nombre in lbNombres.Items)
+                {
+                    if (txtNombres.Text.Trim().ToUpper() == nombre.ToUpper()) { duplicado = true; }
+                }
+                if (!duplicado)
+                {
+                    lbNombres.Items.Add(txtNombres.Text.Trim());
+                    txtNombres.Text = "";
+
+                }
+                else { MessageBox.Show("el nombre ya se encuentra en las listas"); }
+                    
             }
             else
             {
                 MessageBox.Show("Ingrese un nombre");
             }
+
+        }
+
+        private void txtNombres_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbNombres_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

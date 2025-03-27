@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\trabajo practico 1\\TP1GRUPO3\\",
+  "WorkspaceRootPath": "C:\\Users\\Ramiro\\Desktop\\TP1GRUPO3\\TP1GRUPO3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CA0E886-9B67-44DD-A34E-2226F35D2FF8}|TP1GRUPO3\\TP1GRUPO3.csproj|c:\\users\\usuario\\desktop\\trabajo practico 1\\tp1grupo3\\tp1grupo3\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CA0E886-9B67-44DD-A34E-2226F35D2FF8}|TP1GRUPO3\\TP1GRUPO3.csproj|c:\\users\\ramiro\\desktop\\tp1grupo3\\tp1grupo3\\tp1grupo3\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CA0E886-9B67-44DD-A34E-2226F35D2FF8}|TP1GRUPO3\\TP1GRUPO3.csproj|solutionrelative:tp1grupo3\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CA0E886-9B67-44DD-A34E-2226F35D2FF8}|TP1GRUPO3\\TP1GRUPO3.csproj|c:\\users\\usuario\\desktop\\trabajo practico 1\\tp1grupo3\\tp1grupo3\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8CA0E886-9B67-44DD-A34E-2226F35D2FF8}|TP1GRUPO3\\TP1GRUPO3.csproj|c:\\users\\ramiro\\desktop\\tp1grupo3\\tp1grupo3\\tp1grupo3\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8CA0E886-9B67-44DD-A34E-2226F35D2FF8}|TP1GRUPO3\\TP1GRUPO3.csproj|solutionrelative:tp1grupo3\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CA0E886-9B67-44DD-A34E-2226F35D2FF8}|TP1GRUPO3\\TP1GRUPO3.csproj|c:\\users\\usuario\\desktop\\trabajo practico 1\\tp1grupo3\\tp1grupo3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8CA0E886-9B67-44DD-A34E-2226F35D2FF8}|TP1GRUPO3\\TP1GRUPO3.csproj|C:\\Users\\Ramiro\\Desktop\\TP1GRUPO3\\TP1GRUPO3\\tp1grupo3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8CA0E886-9B67-44DD-A34E-2226F35D2FF8}|TP1GRUPO3\\TP1GRUPO3.csproj|solutionrelative:tp1grupo3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\trabajo practico 1\\TP1GRUPO3\\TP1GRUPO3\\Form2.cs",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\TP1GRUPO3\\TP1GRUPO3\\TP1GRUPO3\\Form2.cs",
               "RelativeDocumentMoniker": "TP1GRUPO3\\Form2.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\trabajo practico 1\\TP1GRUPO3\\TP1GRUPO3\\Form2.cs*",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\TP1GRUPO3\\TP1GRUPO3\\TP1GRUPO3\\Form2.cs*",
               "RelativeToolTip": "TP1GRUPO3\\Form2.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAABwAAABqAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T22:38:31.12Z",
               "IsPinned": true,
@@ -45,26 +45,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form2.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\trabajo practico 1\\TP1GRUPO3\\TP1GRUPO3\\Form2.cs",
+              "Title": "Form2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\TP1GRUPO3\\TP1GRUPO3\\TP1GRUPO3\\Form2.cs",
               "RelativeDocumentMoniker": "TP1GRUPO3\\Form2.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\trabajo practico 1\\TP1GRUPO3\\TP1GRUPO3\\Form2.cs [Progettazione]*",
-              "RelativeToolTip": "TP1GRUPO3\\Form2.cs [Progettazione]*",
+              "ToolTip": "C:\\Users\\Ramiro\\Desktop\\TP1GRUPO3\\TP1GRUPO3\\TP1GRUPO3\\Form2.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "TP1GRUPO3\\Form2.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T22:34:15.267Z",
-              "EditorCaption": " [Progettazione]"
+              "WhenOpened": "2025-03-27T23:24:45.672Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\trabajo practico 1\\TP1GRUPO3\\TP1GRUPO3\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Ramiro\\Desktop\\TP1GRUPO3\\TP1GRUPO3\\TP1GRUPO3\\Form1.cs",
               "RelativeDocumentMoniker": "TP1GRUPO3\\Form1.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\trabajo practico 1\\TP1GRUPO3\\TP1GRUPO3\\Form1.cs [Progettazione]",
-              "RelativeToolTip": "TP1GRUPO3\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "..\\..\\..\\..\\Usuario\\Desktop\\trabajo practico 1\\TP1GRUPO3\\TP1GRUPO3\\Form1.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T23:29:47.704Z",
-              "EditorCaption": " [Progettazione]"
+              "WhenOpened": "2025-03-23T23:29:47.704Z"
             }
           ]
         }
