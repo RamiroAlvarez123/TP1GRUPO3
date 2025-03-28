@@ -74,8 +74,29 @@ namespace TP1GRUPO3
            }
             else
             {
-                MessageBox.Show("Debe seleccionar al menos un item.");
+                MessageBox.Show("Debe seleccionar al menos un item." , "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+        //AGREGUE UN BOTON SE PASARAN TODOS LOS ITEM A LA LISTA DE LA DERECHA ELIMINANDO LOS DE LA LISTA DE LA IZQUIERDA
+        private void Btnlistado_Click(object sender, EventArgs e)
+        {
+           
+            if (lbNombres.Items.Count == 0)
+            {
+                MessageBox.Show("Debe seleccionar al menos un ítem en la lista izquierda para moverlo.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+             
+                while (lbNombres.Items.Count > 0)
+                {
+                  
+                    lbSalida.Items.Add(lbNombres.Items[0]);
+                    lbNombres.Items.RemoveAt(0);  // Eliminar el ítem de la lista ibNombres
+                }
+            }
+          }
+
+
     }
 }

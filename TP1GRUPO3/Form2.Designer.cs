@@ -35,6 +35,7 @@ namespace TP1GRUPO3
             this.txtNombres = new System.Windows.Forms.TextBox();
             this.btnSinglePass = new System.Windows.Forms.Button();
             this.lbSalida = new System.Windows.Forms.ListBox();
+            this.btnlistado = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbNombres
@@ -104,12 +105,24 @@ namespace TP1GRUPO3
             this.lbSalida.Size = new System.Drawing.Size(192, 212);
             this.lbSalida.TabIndex = 5;
             // 
+            // btnlistado
+            // 
+            this.btnlistado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlistado.Location = new System.Drawing.Point(311, 192);
+            this.btnlistado.Name = "btnlistado";
+            this.btnlistado.Size = new System.Drawing.Size(75, 33);
+            this.btnlistado.TabIndex = 6;
+            this.btnlistado.Text = ">>";
+            this.btnlistado.UseVisualStyleBackColor = true;
+            this.btnlistado.Click += new System.EventHandler(this.Btnlistado_Click);
+            // 
             // FormEjUno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnlistado);
             this.Controls.Add(this.lbSalida);
             this.Controls.Add(this.btnSinglePass);
             this.Controls.Add(this.txtNombres);
@@ -133,5 +146,6 @@ namespace TP1GRUPO3
         private System.Windows.Forms.TextBox txtNombres;
         private System.Windows.Forms.Button btnSinglePass;
         private System.Windows.Forms.ListBox lbSalida;
+        private System.Windows.Forms.Button btnlistado;
     }
 }
