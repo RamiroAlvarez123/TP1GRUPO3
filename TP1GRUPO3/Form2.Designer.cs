@@ -33,14 +33,17 @@ namespace TP1GRUPO3
             this.btnAgregar = new System.Windows.Forms.Button();
             this.lblNombre = new System.Windows.Forms.Label();
             this.txtNombres = new System.Windows.Forms.TextBox();
+            this.btnSinglePass = new System.Windows.Forms.Button();
+            this.lbSalida = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // lbNombres
             // 
             this.lbNombres.FormattingEnabled = true;
             this.lbNombres.Location = new System.Drawing.Point(61, 128);
-            this.lbNombres.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lbNombres.Margin = new System.Windows.Forms.Padding(2);
             this.lbNombres.Name = "lbNombres";
+            this.lbNombres.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.lbNombres.Size = new System.Drawing.Size(200, 212);
             this.lbNombres.TabIndex = 0;
             this.lbNombres.SelectedIndexChanged += new System.EventHandler(this.lbNombres_SelectedIndexChanged);
@@ -50,7 +53,7 @@ namespace TP1GRUPO3
             this.btnAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregar.Location = new System.Drawing.Point(457, 63);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(76, 31);
             this.btnAgregar.TabIndex = 1;
@@ -74,11 +77,32 @@ namespace TP1GRUPO3
             // 
             this.txtNombres.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombres.Location = new System.Drawing.Point(213, 63);
-            this.txtNombres.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNombres.Margin = new System.Windows.Forms.Padding(2);
             this.txtNombres.Name = "txtNombres";
             this.txtNombres.Size = new System.Drawing.Size(221, 26);
             this.txtNombres.TabIndex = 3;
             this.txtNombres.TextChanged += new System.EventHandler(this.txtNombres_TextChanged);
+            // 
+            // btnSinglePass
+            // 
+            this.btnSinglePass.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSinglePass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSinglePass.Location = new System.Drawing.Point(311, 128);
+            this.btnSinglePass.Name = "btnSinglePass";
+            this.btnSinglePass.Size = new System.Drawing.Size(75, 33);
+            this.btnSinglePass.TabIndex = 4;
+            this.btnSinglePass.Text = ">";
+            this.btnSinglePass.UseVisualStyleBackColor = true;
+            this.btnSinglePass.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // lbSalida
+            // 
+            this.lbSalida.FormattingEnabled = true;
+            this.lbSalida.Location = new System.Drawing.Point(457, 128);
+            this.lbSalida.Name = "lbSalida";
+            this.lbSalida.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
+            this.lbSalida.Size = new System.Drawing.Size(192, 212);
+            this.lbSalida.TabIndex = 5;
             // 
             // FormEjUno
             // 
@@ -86,6 +110,8 @@ namespace TP1GRUPO3
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbSalida);
+            this.Controls.Add(this.btnSinglePass);
             this.Controls.Add(this.txtNombres);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.btnAgregar);
@@ -105,5 +131,7 @@ namespace TP1GRUPO3
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.TextBox txtNombres;
+        private System.Windows.Forms.Button btnSinglePass;
+        private System.Windows.Forms.ListBox lbSalida;
     }
 }

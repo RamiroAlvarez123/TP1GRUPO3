@@ -41,7 +41,6 @@ namespace TP1GRUPO3
                 {
                     lbNombres.Items.Add(txtNombres.Text.Trim());
                     txtNombres.Text = "";
-
                 }
                 else { MessageBox.Show("el nombre ya se encuentra en las listas"); }
                     
@@ -61,6 +60,22 @@ namespace TP1GRUPO3
         private void lbNombres_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           //Traspasar los strings seleccionados de un ListBox a otro y validar que haya al menos un item seleccionado.
+           if(lbNombres.SelectedItems.Count > 0)
+            {
+                foreach(string item in lbNombres.SelectedItems)
+                {
+                    lbSalida.Items.Add(item.ToString()); 
+                }
+           }
+            else
+            {
+                MessageBox.Show("Debe seleccionar al menos un item.");
+            }
         }
     }
 }
