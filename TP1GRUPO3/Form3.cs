@@ -37,7 +37,7 @@ namespace TP1GRUPO3
 
         private void btn_Click(object sender, EventArgs e)
         {
-            ///utilize el comando remove para eleminar los elementos de la lista seleccionados.
+            ///utilize el comando remove para eleminar los elementos de la lista seleccionados..
            if (lbSalida.SelectedItem != null)
             {
                 lbSalida.Items.Remove(lbSalida.SelectedItem);
