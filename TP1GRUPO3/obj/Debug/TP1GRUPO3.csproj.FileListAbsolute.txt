@@ -24,3 +24,16 @@ C:\Users\Ramiro\Desktop\TP1GRUPO3\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.csproj
 C:\Users\Ramiro\Desktop\TP1GRUPO3\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.csproj.CoreCompileInputs.cache
 C:\Users\Ramiro\Desktop\TP1GRUPO3\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.exe
 C:\Users\Ramiro\Desktop\TP1GRUPO3\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.pdb
+C:\Users\Usuario\Desktop\trabajo practico 1\TP1GRUPO3\TP1GRUPO3\bin\Debug\TP1GRUPO3.exe.config
+C:\Users\Usuario\Desktop\trabajo practico 1\TP1GRUPO3\TP1GRUPO3\bin\Debug\TP1GRUPO3.exe
+C:\Users\Usuario\Desktop\trabajo practico 1\TP1GRUPO3\TP1GRUPO3\bin\Debug\TP1GRUPO3.pdb
+C:\Users\Usuario\Desktop\trabajo practico 1\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\trabajo practico 1\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.FormularioPrincipal.resources
+C:\Users\Usuario\Desktop\trabajo practico 1\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.FormEjUno.resources
+C:\Users\Usuario\Desktop\trabajo practico 1\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.FormEjDos.resources
+C:\Users\Usuario\Desktop\trabajo practico 1\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.FormEjTres.resources
+C:\Users\Usuario\Desktop\trabajo practico 1\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.Properties.Resources.resources
+C:\Users\Usuario\Desktop\trabajo practico 1\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\trabajo practico 1\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\trabajo practico 1\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.exe
+C:\Users\Usuario\Desktop\trabajo practico 1\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.pdb
