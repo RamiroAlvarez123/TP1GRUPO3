@@ -37,6 +37,10 @@ namespace TP1GRUPO3
                 {
                     if (txtNombres.Text.Trim().ToUpper() == nombre.ToUpper()) { duplicado = true; }
                 }
+                foreach (string nombre in lbSalida.Items)
+                {
+                    if (txtNombres.Text.Trim().ToUpper() == nombre.ToUpper()) { duplicado = true; }
+                }
                 if (!duplicado)
                 {
                     lbNombres.Items.Add(txtNombres.Text.Trim());

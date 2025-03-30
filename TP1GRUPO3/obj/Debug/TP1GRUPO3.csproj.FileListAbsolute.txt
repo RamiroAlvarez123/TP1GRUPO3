@@ -11,3 +11,16 @@ C:\Users\jessi\OneDrive\Escritorio\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.cspro
 C:\Users\jessi\OneDrive\Escritorio\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.csproj.CoreCompileInputs.cache
 C:\Users\jessi\OneDrive\Escritorio\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.exe
 C:\Users\jessi\OneDrive\Escritorio\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.pdb
+C:\Users\Ramiro\Desktop\TP1GRUPO3\TP1GRUPO3\TP1GRUPO3\bin\Debug\TP1GRUPO3.exe.config
+C:\Users\Ramiro\Desktop\TP1GRUPO3\TP1GRUPO3\TP1GRUPO3\bin\Debug\TP1GRUPO3.exe
+C:\Users\Ramiro\Desktop\TP1GRUPO3\TP1GRUPO3\TP1GRUPO3\bin\Debug\TP1GRUPO3.pdb
+C:\Users\Ramiro\Desktop\TP1GRUPO3\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.csproj.AssemblyReference.cache
+C:\Users\Ramiro\Desktop\TP1GRUPO3\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.FormularioPrincipal.resources
+C:\Users\Ramiro\Desktop\TP1GRUPO3\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.FormEjUno.resources
+C:\Users\Ramiro\Desktop\TP1GRUPO3\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.FormEjDos.resources
+C:\Users\Ramiro\Desktop\TP1GRUPO3\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.FormEjTres.resources
+C:\Users\Ramiro\Desktop\TP1GRUPO3\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.Properties.Resources.resources
+C:\Users\Ramiro\Desktop\TP1GRUPO3\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.csproj.GenerateResource.cache
+C:\Users\Ramiro\Desktop\TP1GRUPO3\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.csproj.CoreCompileInputs.cache
+C:\Users\Ramiro\Desktop\TP1GRUPO3\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.exe
+C:\Users\Ramiro\Desktop\TP1GRUPO3\TP1GRUPO3\TP1GRUPO3\obj\Debug\TP1GRUPO3.pdb
