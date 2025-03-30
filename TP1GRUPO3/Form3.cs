@@ -23,5 +23,26 @@ namespace TP1GRUPO3
         {
             formularioPrincipal.Show();
         }
+
+        private void btlAgregar_Click(object sender, EventArgs e)
+        {
+            /// use variable de tipo string para concatenar el apellido y el nombre
+            string nombre = txtNombre.Text.Trim();
+            string apellido = txtApellido.Text.Trim();
+            string NombreCompleto = apellido + " " + nombre;
+            lbSalida.Items.Add(NombreCompleto);
+            txtNombre.Text = "";
+            txtApellido.Text = "";
+        }
+
+        private void btn_Click(object sender, EventArgs e)
+        {
+            ///utilize el comando remove para eleminar los elementos de la lista seleccionados.
+           if (lbSalida.SelectedItem != null)
+            {
+                lbSalida.Items.Remove(lbSalida.SelectedItem);
+            }
+
+        }
     }
 }
