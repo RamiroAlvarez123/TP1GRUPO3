@@ -40,8 +40,28 @@ namespace TP1GRUPO3
             ///utilize el comando remove para eleminar los elementos de la lista seleccionados.
             if (lbSalida.SelectedItem != null)
             {
-                lbSalida.Items.Remove(lbSalida.SelectedItem);
+                List<string> itemRemove = new List<string>();
+
+                foreach (string item in lbSalida.SelectedItems)
+                {
+                    itemRemove.Add(item);
+                }
+
+                foreach (string item in itemRemove)
+                {
+                    lbSalida.Items.Remove(item);
+                }
             }
+
+        }
+
+        private void FormEjDos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbSalida_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }
