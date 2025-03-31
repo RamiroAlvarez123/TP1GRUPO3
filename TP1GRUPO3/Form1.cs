@@ -37,5 +37,10 @@ namespace TP1GRUPO3
             formEjTres.Show();
             this.Hide();
         }
+
+        private void FormularioPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

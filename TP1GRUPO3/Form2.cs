@@ -46,7 +46,7 @@ namespace TP1GRUPO3
                     lbNombres.Items.Add(txtNombres.Text.Trim());
                     txtNombres.Text = "";
                 }
-                else { MessageBox.Show("el nombre ya se encuentra en las listas"); }
+                else { MessageBox.Show("El nombre ya se encuentra en las listas", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning); }
                     
             }
             else

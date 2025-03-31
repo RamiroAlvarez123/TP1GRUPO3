@@ -148,6 +148,7 @@
             this.Name = "FormularioPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulario Principal";
+            this.Load += new System.EventHandler(this.FormularioPrincipal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
