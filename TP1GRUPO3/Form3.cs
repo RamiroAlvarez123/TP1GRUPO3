@@ -24,30 +24,47 @@ namespace TP1GRUPO3
             formularioPrincipal.Show();
         }
 
+
+        //se debe completar los dos elementos nombre y apellido para que se pueda agregar a la lista
         private void btnAgrgar_Click(object sender, EventArgs e)
         {
-            /// use variable de tipo string para concatenar el apellido y el nombre
+            
             string nombre = txtNombre.Text.Trim();
             string apellido = txtApellido.Text.Trim();
-            string NombreCompleto = apellido + " " + nombre;
-            bool repetido = false; // Variable booleana que me permitirá verificar repeticiones.
-            foreach(var item in lbSalida.Items) // Por cada(foreach) variable Item EN lbSalida...
+
+            if (string.IsNullOrWhiteSpace(nombre) || string.IsNullOrWhiteSpace(apellido))
             {
-                if(item.ToString().ToUpper() == NombreCompleto.ToUpper()) // Si encuentro repeticiones...
+                MessageBox.Show("Debe completar ambos campos: Nombre y Apellido.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; 
+            }
+
+            string NombreCompleto = $"{apellido} {nombre}";
+            bool repetido = false;
+
+            foreach (var item in lbSalida.Items)
+            {
+                if (item.ToString().Equals(NombreCompleto, StringComparison.OrdinalIgnoreCase))
                 {
-                    repetido = true; // Pongo mi variable en true.
-                    break; // Freno el bucle.
+                    repetido = true;
+                    break;
                 }
             }
-            if(repetido) {MessageBox.Show("Este nombre y apellido ya han sido ingresados.");} // No permitimos repeticiones.
+
+            // Evita nombres repetidos
+            if (! repetido)
+            {
+                lbSalida.Items.Add(NombreCompleto);
+                lbSalida.Sorted = true;
+                txtNombre.Clear();
+                txtApellido.Clear();
+                txtNombre.Focus();
+            }
             else
             {
-            lbSalida.Items.Add(NombreCompleto);
-            lbSalida.Sorted = true; /// Este código permite ordenar alfabéticamente, tomando en cuenta el primer caracter ingresado.
-            txtNombre.Text = "";
-            txtApellido.Text = "";
+                MessageBox.Show("Este nombre y apellido ya han sido ingresados.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
@@ -68,6 +85,22 @@ namespace TP1GRUPO3
             }
 
         }
+
+        //utilize el comando removeAt se usa para eliminar el elemento seleccionado en la lista.
+        private void BtnBorrar_Click(object sender, EventArgs e)
+        {   
+            // (Verificar si hay un elemento seleccionado) .
+            if (lbSalida.SelectedIndex == -1)
+            {
+                MessageBox.Show("Debe seleccionar un elemento para borrar.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                // Elimina el elemento seleccionado
+                lbSalida.Items.RemoveAt(lbSalida.SelectedIndex);
+            }
+        }
+
 
         private void FormEjDos_Load(object sender, EventArgs e)
         {

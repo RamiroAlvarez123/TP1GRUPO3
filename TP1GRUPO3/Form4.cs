@@ -23,5 +23,20 @@ namespace TP1GRUPO3
         {
             formularioPrincipal.Show();
         }
+
+        private void gbNombre_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
