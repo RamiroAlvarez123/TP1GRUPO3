@@ -51,9 +51,9 @@ namespace TP1GRUPO3
             this.gbNombre.Controls.Add(this.btnAgrgar);
             this.gbNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbNombre.Location = new System.Drawing.Point(26, 37);
-            this.gbNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbNombre.Margin = new System.Windows.Forms.Padding(2);
             this.gbNombre.Name = "gbNombre";
-            this.gbNombre.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbNombre.Padding = new System.Windows.Forms.Padding(2);
             this.gbNombre.Size = new System.Drawing.Size(262, 323);
             this.gbNombre.TabIndex = 0;
             this.gbNombre.TabStop = false;
@@ -62,7 +62,7 @@ namespace TP1GRUPO3
             // txtApellido
             // 
             this.txtApellido.Location = new System.Drawing.Point(122, 167);
-            this.txtApellido.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtApellido.Margin = new System.Windows.Forms.Padding(2);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(96, 26);
             this.txtApellido.TabIndex = 4;
@@ -70,7 +70,7 @@ namespace TP1GRUPO3
             // txtNombre
             // 
             this.txtNombre.Location = new System.Drawing.Point(122, 121);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(2);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(96, 26);
             this.txtNombre.TabIndex = 3;
@@ -98,7 +98,7 @@ namespace TP1GRUPO3
             // btnAgrgar
             // 
             this.btnAgrgar.Location = new System.Drawing.Point(122, 236);
-            this.btnAgrgar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAgrgar.Margin = new System.Windows.Forms.Padding(2);
             this.btnAgrgar.Name = "btnAgrgar";
             this.btnAgrgar.Size = new System.Drawing.Size(95, 28);
             this.btnAgrgar.TabIndex = 0;
@@ -112,9 +112,9 @@ namespace TP1GRUPO3
             this.gbElementos.Controls.Add(this.btnBorrar);
             this.gbElementos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbElementos.Location = new System.Drawing.Point(374, 37);
-            this.gbElementos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbElementos.Margin = new System.Windows.Forms.Padding(2);
             this.gbElementos.Name = "gbElementos";
-            this.gbElementos.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbElementos.Padding = new System.Windows.Forms.Padding(2);
             this.gbElementos.Size = new System.Drawing.Size(262, 323);
             this.gbElementos.TabIndex = 1;
             this.gbElementos.TabStop = false;
@@ -125,7 +125,7 @@ namespace TP1GRUPO3
             this.lbSalida.FormattingEnabled = true;
             this.lbSalida.ItemHeight = 20;
             this.lbSalida.Location = new System.Drawing.Point(14, 57);
-            this.lbSalida.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lbSalida.Margin = new System.Windows.Forms.Padding(2);
             this.lbSalida.Name = "lbSalida";
             this.lbSalida.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.lbSalida.Size = new System.Drawing.Size(228, 184);
@@ -135,7 +135,7 @@ namespace TP1GRUPO3
             // btnBorrar
             // 
             this.btnBorrar.Location = new System.Drawing.Point(84, 258);
-            this.btnBorrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBorrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(88, 28);
             this.btnBorrar.TabIndex = 0;
