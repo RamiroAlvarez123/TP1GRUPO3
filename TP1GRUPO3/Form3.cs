@@ -30,9 +30,23 @@ namespace TP1GRUPO3
             string nombre = txtNombre.Text.Trim();
             string apellido = txtApellido.Text.Trim();
             string NombreCompleto = apellido + " " + nombre;
+            bool repetido = false; // Variable booleana que me permitirá verificar repeticiones.
+            foreach(var item in lbSalida.Items) // Por cada(foreach) variable Item EN lbSalida...
+            {
+                if(item.ToString().ToUpper() == NombreCompleto.ToUpper()) // Si encuentro repeticiones...
+                {
+                    repetido = true; // Pongo mi variable en true.
+                    break; // Freno el bucle.
+                }
+            }
+            if(repetido) {MessageBox.Show("Este nombre y apellido ya han sido ingresados.");} // No permitimos repeticiones.
+            else
+            {
             lbSalida.Items.Add(NombreCompleto);
+            lbSalida.Sorted = true; /// Este código permite ordenar alfabéticamente, tomando en cuenta el primer caracter ingresado.
             txtNombre.Text = "";
             txtApellido.Text = "";
+            }
         }
 
         private void btnBorrar_Click(object sender, EventArgs e)
