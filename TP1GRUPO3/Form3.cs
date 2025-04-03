@@ -83,23 +83,15 @@ namespace TP1GRUPO3
                     lbSalida.Items.Remove(item);
                 }
             }
-
-        }
-
-        //utilize el comando removeAt se usa para eliminar el elemento seleccionado en la lista.
-        private void BtnBorrar_Click(object sender, EventArgs e)
-        {   
-            // (Verificar si hay un elemento seleccionado) .
-            if (lbSalida.SelectedIndex == -1)
+            else
             {
                 MessageBox.Show("Debe seleccionar un elemento para borrar.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-            else
-            {
-                // Elimina el elemento seleccionado
-                lbSalida.Items.RemoveAt(lbSalida.SelectedIndex);
-            }
+
         }
+
+       
+     
 
 
         private void FormEjDos_Load(object sender, EventArgs e)
