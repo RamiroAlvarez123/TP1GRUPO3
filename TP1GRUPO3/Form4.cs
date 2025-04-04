@@ -34,11 +34,6 @@ namespace TP1GRUPO3
 
         }
 
-        private void btnMostrar_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void clbOficios_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -46,7 +41,30 @@ namespace TP1GRUPO3
 
         private void label2_Click(object sender, EventArgs e)
         {
+            // Mensaje inicial
+            string mensaje = "Usted seleccionó los siguientes elementos:\n\n";
 
+            // Verificar qué opción de sexo está seleccionada
+            if (radioFem.Checked)
+            {
+                mensaje += "Sexo: Femenino\n";
+            }
+            else if (RadioMasc.Checked)
+            {
+                mensaje += "Sexo: Masculino\n";
+            }
+
+            // Verificar estado civil
+            if (radioCasado.Checked)
+            {
+                mensaje += "Estado Civil: Casado\n";
+            }
+            else if (radioSoltero.Checked)
+            {
+                mensaje += "Estado Civil: Soltero\n";
+            }
+
+            lbElementos.Text = mensaje;
         }
 
         private void button2_Click(object sender, EventArgs e)
