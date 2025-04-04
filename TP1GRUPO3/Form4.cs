@@ -63,12 +63,36 @@ namespace TP1GRUPO3
             {
                 mensaje += "Estado Civil: Soltero\n";
             }
+            lbElementos.Show();
+
 
             lbElementos.Text = mensaje;
+
+
+
+            lblOficio.Show();
+
+            
+
+            foreach (string item in clbOficios.CheckedItems)
+            {
+                lblOficio.Text += item + Environment.NewLine;
+
+            }
+
+
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void FormEjTres_Load(object sender, EventArgs e)
+        {
+            lblOficio.Hide();
+            lbElementos.Hide();
 
         }
     }
