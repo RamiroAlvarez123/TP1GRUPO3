@@ -41,6 +41,7 @@ namespace TP1GRUPO3
 
         private void label2_Click(object sender, EventArgs e)
         {
+               lblOficio.Text = string.Empty;
             // Mensaje inicial
             string mensaje = "Usted seleccionó los siguientes elementos:\n\n";
 
@@ -67,8 +68,6 @@ namespace TP1GRUPO3
 
 
             lbElementos.Text = mensaje;
-
-
 
             lblOficio.Show();
 
